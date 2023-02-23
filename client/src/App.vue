@@ -45,7 +45,10 @@ export default {
           <div class="card-body">
             <h5 class="card-title">{{ this.setup }}</h5>
             <p class="card-text">{{ this.punchline }} 😹</p>
-            <button @click="getJoke" type="button" class="btn btn-danger ">Reload 💫</button>
+            <br />
+            <div>
+              <button @click="getJoke" type="button" class="btn btn-danger ">Reload 💫</button>
+            </div>
           </div>
         </div>
       </div>
